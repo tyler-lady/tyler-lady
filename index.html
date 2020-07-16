@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="styles.css" >
+
+<!--Landing/Header Section
+    Navbar
+    About Me
+    Projects Section:
+        Static Layout Application
+        Creature Assignment
+        API Project
+    Contact Section
+    Footer
+-->
+
+    <title>Tyler Lady</title>
+  </head>
+  <body>
+
+    <header>
+        <ul class="nav justify-content-center fixed-top" id="myNav">
+            <li class="nav-item">
+                <a href="#about" class="nav-link text-white">About</a>
+            </li>
+            <li class="nav-item">
+                <a href="#projects" class="nav-link text-white">Projects</a>
+            </li>
+            <li class="nav-item">
+                <a href="#contact" class="nav-link text-white">Contact Me</a>
+            </li>
+        </ul>
+    </header>
+
+
+    <div class="jumbotron jumbotron-fluid" id="parallaxContainer">
+        
+        <div id="parallax">
+            <div class="container text-white
+            justify-content-left" id="landing">
+                <h1>Tyler Lady</h1>
+                <h3>Jr. Web Developer</h3>
+                <p>What can we do together?</p>
+            </div>
+        </div>
+    </div>
+
+
+    <!--need a welcome banner(a solid/pretty landing point-->
+    <div class="container col" id="about">
+        <div class="container col" id="aboutWrapper">
+        <div class="container col-11 justify-content-left">
+            <h1>About Me</h1>
+        </div>
+        <div class="container">
+            <div class="container justify-content-left">
+                <div class="row">
+                    <div class="col-8">
+                        <p>Growing up on a farm in Greene County, IN, it always felt like I wasn't supposed to amount to much. It's been my life's driving ambition to always be more. I was published at 16, recording my first song at 18, and performing in front of hundreds by 22. Over the course of my time I have gathered years of customer service experience, a high quality sales education, and three years time operaiting on an independent contracting flooring installation team. This pushed me to develop an unmatched work ethic and unquenchable thirst for new skills and evolution.</p>
+                    </div>
+                    <div class="col">
+                        <img class="img-fluid" src="https://img.texasmonthly.com/2017/12/PostMalone.jpg?auto=compress&crop=faces&fit=fit&fm=jpg&h=0&ixlib=php-1.2.1&q=45&w=1250" alt="Picture of Me">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-8">
+                        <p>Enter an obsession for technology, problem solving, the question "why?", and my new found career in web development. After finishing my intensive education with ElevenFifty Academy I will be joining the ranks of Junior Web Developers looking to conquer the workforce and begin successful, longlasting careers.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-8">
+                        <p>I am perfection driven.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid" id="bar"></div>
+
+    <div class="container" id="projects">
+    <div class="container row"><h1>My Projects!</h1></div>
+
+        <div class="row no-gutters projectBox">
+            <div class="col projectBox">
+            <a href="https://tyler-lady.github.io/staticLayout/"><img class="img-fluid" src="sources/staticLayout.JPG" alt=""></a>
+            </div>
+            <div class="col projectBox">
+            <a href="https://tyler-lady.github.io/api-challenge/"><img class="img-fluid" src="sources/pokedexApp.JPG" alt=""></a>
+            </div>
+            <div class="col projectBox">
+            <a href="https://codepen.io/tclady/pen/bGEWEzR?editors=1100"><img class="img-fluid" src="sources/rsz_ricksanchez.JPG" alt=""></a>
+            </div>
+        </div>
+    
+    </div>
+       <!-- Embedded version of my music -->
+    <div class="jumbotron jumbotron-fluid" id="videoHolder">
+        <div class="row justify-content-center">    
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/9Gz329__v0E?start=63&amp;end=104&mute=1&autoplay=1&modestbranding=1&controls=0&disablekb=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="row justify-content-center">
+            <h2>I enjoy passion projects too.</h2>
+        </div>
+    </div>
+    
+
+    <!--Need a "portfolio", or projects section-->
+
+
+    <div class="jumbotron jumbotron-fluid" id="contactSection">
+        <div class="row justify-content-center" id="contactHeader">
+            <h1>Let's get in touch</h1>
+        </div>
+    <!--Need a contact me section to finish off-->
+        <div class="container" id="contact">
+            <form action="https://formspree.io/mayplbdj" method="POST">
+                
+                
+                <div class="container row justify-content-center">
+                <label>
+                    Your email:
+                    <input type="text" name="_replyto">
+                </label>
+                </div>
+
+                <div class="container row justify-content-center">
+                <label>
+                    Your message:
+                    <textarea name="message"></textarea>
+                </label>
+                </div>
+                <div class="container row justify-content-center">
+                <button type="submit">Send</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+    
+    <footer>
+        <div class="row justify-content-center">
+        <p class="col">Copyright OGTJ</p>
+        <p class="col">Bootstrap</p>
+        </div>
+    </footer>
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="scripts.js"></script>
+  </body>
+</html>

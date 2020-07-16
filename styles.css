@@ -1,0 +1,73 @@
+body {
+
+    background-color: #252525;
+}
+
+#myNav {
+    background-color: #252525;
+    height: 8%;
+}
+
+#parallaxContainer {
+    background-color: #FF4949;
+}
+
+#parallax {
+    background: url('https://images.unsplash.com/photo-1506260408121-e353d10b87c7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+}
+
+#landing {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+}
+
+#about {
+    background-color: #FF4949;
+    padding: 2rem;
+}
+
+#aboutWrapper {
+    background-color: white;
+    
+}
+
+#projects {
+    background-color: #dedede;
+}
+
+.projectBox {
+    justify-content: center;
+}
+
+
+
+#bar {
+    height: 150px;
+    background: url('https://images.unsplash.com/photo-1524260855046-f743b3cdad07?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=801&q=80') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#videoHolder {
+    background-color: #252525;
+    color: white;
+}
+
+#contactSection {
+    background-color: white;
+    
+}
+
+#contactHead {
+    padding: 4rem;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-size: 10px;
+}
