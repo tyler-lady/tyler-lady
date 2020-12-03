@@ -6,20 +6,29 @@
     margin-left: 0;
     margin-right: 0;
     }
-}
-
-@media screen and (max-width: 900px){
     #contact {
-    font-size: 1.2em;
-    margin-left: 13%;
+        font-size: 1.2em;
+        margin-left: 4em;
+        display: flexbox;
+        flex-wrap: wrap;
+        flex-direction: column;
     }
-}
-
-@media screen and (max-width: 900px){
+    #contactHeader {
+        margin-left: 1em;
+    }
+    #headShot {
+        margin-top: 2.5em;
+    }
     #myNav {
-    float: none;
-    width: 100%;
-    font-size: 1.2em;
+        float: none;
+        width: 100%;
+        font-size: 1.2em;
+    }
+    body {
+        overflow-x: hidden;
+    }
+    #experienceHeader {
+        margin-top: 1em;
     }
 }
 
