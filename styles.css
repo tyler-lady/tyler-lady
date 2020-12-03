@@ -11,7 +11,6 @@
     }
     #contact {
         font-size: 1.2em;
-        margin-left: 1em;
         display: flexbox;
         flex-wrap: wrap;
         flex-direction: column;
@@ -19,8 +18,12 @@
     #contactHeader {
         margin-left: 1em;
     }
+    #contactForm {
+        margin-left: 1.5em;
+    }
     #headShot {
         margin-top: 2.5em;
+        margin-left: .5em;
     }
     #myNav {
         float: none;
@@ -32,6 +35,7 @@
     }
     #experienceHeader {
         margin-top: 1em;
+        padding-top: 4em;
     }
 }
 
