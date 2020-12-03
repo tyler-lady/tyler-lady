@@ -8,7 +8,7 @@
     }
     #contact {
         font-size: 1.2em;
-        margin-left: 4em;
+        margin-left: 2em;
         display: flexbox;
         flex-wrap: wrap;
         flex-direction: column;
@@ -28,7 +28,7 @@
         overflow-x: hidden;
     }
     #experienceHeader {
-        margin-top: 1em;
+        margin-top: 5em;
     }
 }
 
