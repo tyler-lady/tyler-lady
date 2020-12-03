@@ -1,3 +1,28 @@
+@media screen and (max-width: 900px){
+    #myNav, .resumes, .badgeHeader, #about {
+    float: none;
+    width: 100%;
+    font-size: 1.2em;
+    margin-left: 0;
+    margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 900px){
+    #contact {
+    font-size: 1.2em;
+    margin-left: 13%;
+    }
+}
+
+@media screen and (max-width: 900px){
+    #myNav {
+    float: none;
+    width: 100%;
+    font-size: 1.2em;
+    }
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -36,6 +61,10 @@ h1 {
     left: 93%;
 }
 
+#githubIcon {
+    display: none;
+}
+
 #tagline {
     margin-top: 2em;
     margin-bottom: 2em;
@@ -71,6 +100,7 @@ h1 {
     background-color: white;
     margin-top: 2.5em;
     margin-bottom: 2.5em;
+    text-align: center;
 }
 
 #aboutHeader {
@@ -80,8 +110,6 @@ h1 {
 
 #experienceHeader {
     border-bottom: solid black 2px;
-    width: 40%;
-    text-align: center;
     padding-bottom: 1rem;
     margin-bottom: 1rem;
     margin-top: 1rem;
@@ -94,6 +122,7 @@ h1 {
 .badgeHeader {
     margin-top: 2em;
     margin-bottom: 1em;
+    text-align: center;
 }
 
 .badges {
@@ -103,8 +132,6 @@ h1 {
 
 #proficiencyHeader {
     border-bottom: solid black 2px;
-    width: 40%;
-    text-align: center;
     padding-bottom: 1rem;
     margin-top: 1em;
     margin-bottom: 1rem;

@@ -34,20 +34,24 @@
   </head>
   <body>
     <ul class="nav justify-content-left" id="myNav">
-      <li class="nav-item">
+      <li class="nav-item sectionLink" id="sectionLink">
         <a href="#myNav" class="nav-link">About</a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item sectionLink" id="sectionLink">
         <a href="#projectsHeader" class="nav-link">Projects</a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item sectionLink" id="sectionLink">
         <a href="#contact" class="nav-link">Contact Me</a>
       </li>
+      
       <li class="nav-item">
         <img src="./sources/logoDraft.jpg" id="logoDraft" alt="" />
       </li>
       <li class="nav-item" id="githubLink">
-        <a href="https://github.com/tyler-lady" class="nav-link">Github</a>
+        <a target="_blank" href="https://github.com/tyler-lady" class="nav-link">Github</a>
+      </li>
+      <li class="nav-item" id="githubIcon">
+        <a target="_blank" href="https://github.com/tyler-lady" class="nav-link">Icon here</a>
       </li>
     </ul>
 
@@ -82,15 +86,16 @@
     <!--need a welcome banner(a solid/pretty landing point-->
 
     <div class="container">
-      <div class="row justify-content-center">
+      <div class="row justify-content-center" >
         <h1 id="experienceHeader">My Experience</h1>
       </div>
       <div class="row justify-content-center">
-        <h6 class="badgeHeader"><a href="https://elevenfifty.org/">Eleven Fifty Academy</a> WD54</h6>
+        <h6 class="badgeHeader"><a target="_blank" href="https://elevenfifty.org/">Eleven Fifty Academy</a> WD54</h6>
       </div>
       <div class="row badgeContainer">
         <a
           href="https://www.youracclaim.com/badges/329157bb-bb86-4031-ba9e-3a19b39fbfd8"
+          target="_blank"
           ><img
             class="badges"
             src="sources/web-development-gold-badge.1.png"
@@ -98,6 +103,7 @@
         /></a>
         <a
           href="https://www.youracclaim.com/badges/b435821e-8029-4375-bff0-239e581c106a"
+          target="_blank"
           ><img
             class="badges"
             src="sources/web-development-blue-badge.2.png"
@@ -105,6 +111,7 @@
         /></a>
         <a
           href="https://www.youracclaim.com/badges/09d75fea-05d1-47b1-84a5-2cf3848753a9"
+          target="_blank"
           ><img
             class="badges"
             src="sources/web-development-red-badge.png"
@@ -112,13 +119,13 @@
         /></a>
         <a
           href="https://www.youracclaim.com/badges/b5d6596c-e701-4d2a-920b-6134d616df1d"
+          target="_blank"
           ><img
             class="badges"
             src="sources/eleven-fifty-academy-graduate.png"
             alt="Web Dev Graduation Badge"
         /></a>
       </div>
-      <!-- Need to add a button or link to download my resume here under the badges -->
     </div>
 
     <div class="container">
@@ -126,11 +133,15 @@
         <h1 id="proficiencyHeader">Proficiencies</h1>
       </div>
       <div class="row badgeContainer">
-        <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5"
+        <a 
+          href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5"
+          target="_blank"
           ><img class="proficiencies" src="./sources/HTML5_Logo_64.png"
         /></a>
         <a href=""><img class="proficiencies" src="./sources/css3.png" /></a>
-        <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+        <a 
+          href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+          target="_blank"
           ><img
             class="proficiencies"
             src="./sources/600px-JavaScript-logo.png"
@@ -221,7 +232,9 @@
         aria-labelledby="static-tab"
       >
         <div class="row projectBox">
-          <a href="https://tyler-lady.github.io/staticLayout/"
+          <a 
+            href="https://tyler-lady.github.io/staticLayout/"
+            target="_blank"
             ><img
               class="img-fluid"
               src="sources/staticLayout.jpg"
@@ -237,12 +250,16 @@
       >
         <div class="row projectBox">
           <div class="col projectBox">
-            <a href="https://tcl-quester-client.herokuapp.com/"
+            <a 
+              href="https://tcl-quester-client.herokuapp.com/"
+              target="_blank"
               ><img class="img-fluid" src="" alt="Quester Thumbnail"
             /></a>
           </div>
           <div class="col projectBox" id="musiqueBase">
-            <a href="https://musique-base.herokuapp.com/"
+            <a 
+              href="https://musique-base.herokuapp.com/"
+              target="_blank"
               ><img
                 class="img-fluid"
                 src="sources/musiquebase.png"
@@ -258,7 +275,9 @@
         aria-labelledby="webApp-tab"
       >
         <div class="row projectBox">
-          <a href="https://tyler-lady.github.io/api-challenge/"
+          <a 
+            href="https://tyler-lady.github.io/api-challenge/"
+            target="_blank"
             ><img
               class="img-fluid"
               src="sources/pokedexApp.jpg"
@@ -273,7 +292,9 @@
         aria-labelledby="cssWork-tab"
       >
         <div class="row projectBox">
-          <a href="https://codepen.io/tclady/pen/bGEWEzR?editors=1100"
+          <a 
+            href="https://codepen.io/tclady/pen/bGEWEzR?editors=1100"
+            target="_blank"
             ><img
               class="img-fluid"
               src="sources/rsz_ricksanchez.jpg"
@@ -288,6 +309,7 @@
         <h1>Let's get in touch</h1>
       </div>
       <!--Need a contact me section to finish off-->
+      
       <div class="row container" id="contact">
         <form class="col" action="https://formspree.io/mayplbdj" method="POST">
           <div
