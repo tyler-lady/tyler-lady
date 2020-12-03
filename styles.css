@@ -16,19 +16,27 @@
         flex-direction: column;
     }
     #contactHeader {
-        margin-left: 1em;
+        margin-left: 3em;
     }
     #contactForm {
         margin-left: 1.5em;
     }
+    #contactEmailSection {
+        margin-left: 2em;
+    }
+    #contactMessageSection {
+        margin-left: 2em;
+    }
     #headShot {
         margin-top: 2.5em;
-        margin-left: .5em;
+        margin-left: .75em;
     }
     #myNav {
         float: none;
         width: 100%;
         font-size: 1.2em;
+        display: flex;
+        justify-content: space-between;
     }
     body {
         overflow-x: hidden;
@@ -36,6 +44,12 @@
     #experienceHeader {
         margin-top: 1em;
         padding-top: 4em;
+    }
+    #sectionLink, #githubLink {
+        display: none;
+    }
+    #menuButton, #githubIcon {
+        display: flex;
     }
 }
 
@@ -70,6 +84,10 @@ h1 {
     position: absolute;
     top: 1%;
     left:46.5%
+}
+
+#menuButton {
+    display: none;
 }
 
 #githubLink {
