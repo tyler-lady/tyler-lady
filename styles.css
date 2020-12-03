@@ -4,10 +4,14 @@
     font-size: 1.2em;
     margin-left: 0;
     margin-right: 0;
+    float: none;
+    }
+    .resumes {
+        margin-bottom: 1em;
     }
     #contact {
         font-size: 1.2em;
-        margin-left: 2em;
+        margin-left: 1em;
         display: flexbox;
         flex-wrap: wrap;
         flex-direction: column;
@@ -27,7 +31,7 @@
         overflow-x: hidden;
     }
     #experienceHeader {
-        margin-top: 5em;
+        margin-top: 1em;
     }
 }
 
