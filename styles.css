@@ -1,6 +1,5 @@
 @media screen and (max-width: 900px){
     #myNav, .resumes, .badgeHeader, #about {
-    float: none;
     width: 100%;
     font-size: 1.2em;
     margin-left: 0;
