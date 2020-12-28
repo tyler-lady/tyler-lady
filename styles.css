@@ -16,16 +16,16 @@
         flex-direction: column;
     }
     #contactHeader {
-        margin-left: 3em;
+        margin-left: 4em;
     }
     #contactForm {
         margin-left: 1.5em;
     }
     #contactEmailSection {
-        margin-left: 2em;
+        margin-left: 1em;
     }
     #contactMessageSection {
-        margin-left: 2em;
+        margin-left: 1em;
     }
     #headShot {
         margin-top: 2.5em;
@@ -49,6 +49,9 @@
         display: none;
     }
     #menuButton, #githubIcon {
+        display: flex;
+    }
+    #logoDraft {
         display: flex;
     }
 }
@@ -86,7 +89,12 @@ h1 {
     left:46.5%
 }
 
-#menuButton {
+#menuButton, #exitButton {
+    margin-left: 1em;
+    border-radius: 10%;
+    width: 2em;
+    height: 2em;
+    justify-content: center;
     display: none;
 }
 
@@ -96,6 +104,10 @@ h1 {
 }
 
 #githubIcon {
+    display: none;
+}
+
+#menu {
     display: none;
 }
 
@@ -242,6 +254,12 @@ h1 {
     color: #252525;
     width: 5em;
 
+}
+
+#headShot {
+    height: 400px;
+    width: 400px;
+    margin-left: 23%;
 }
 
 footer {

@@ -15,13 +15,48 @@ var navItems = document.getElementsByClassName("sectionLink");
 console.log(mql);
 
 
-function mediaQuery(mql){
-  if (mql) { // If media query matches
-    //attrChange();
-  } else if (!mql) {
-    //attrOrigin();
+
+
+//below is new syntax for the $(document).ready method. We simply call the handler. 
+$(function() {
+  $("#menuButton").hide();
+  $("#githubIcon").hide();
+  $("#menu").hide();
+  $("#exitButton").hide();
+  if (mql.matches) {
+    $("#menuButton").show();
+    $("#githubIcon").show();
   }
+  
+  $("#menuButton").click(function(){
+    $("#menu").slideToggle("slow", function(){
+      $("#menuButton").hide();
+      $("#exitButton").show();
+    })
+  })
+
+  $("#exitButton").click(function(){
+    $("#menu").slideToggle("slow", function(){
+      $("#exitButton").hide();
+      $("#menuButton").show();
+    })
+  })
+})
+
+const navUpdate = () => {
+  
 }
+
+
+
+$(document).addEventListener("resize", function(){
+  $("#menuButton").hide();
+  $("#githubIcon").hide();
+  if (window.matchMedia("(max-width: 900px)").matches){
+    $("#menuButton").show();
+    $("#githubIcon").show();
+  }
+});
 
 //this works to set the attr to hidden. However, I can't get it to reappear
 // const attrChange = () => {
